@@ -1,0 +1,128 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 06/05/2019 14:35
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-home:before { content: "\f100"; }
+.flaticon-mobile-phone:before { content: "\f101"; }
+.flaticon-leaf:before { content: "\f102"; }
+.flaticon-checked:before { content: "\f103"; }
+.flaticon-gardening:before { content: "\f104"; }
+.flaticon-mail:before { content: "\f105"; }
+.flaticon-trophy:before { content: "\f106"; }
+.flaticon-manager:before { content: "\f107"; }
+.flaticon-placeholder-filled-point:before { content: "\f108"; }
+.flaticon-signing-the-contract:before { content: "\f109"; }
+.flaticon-old-typical-phone:before { content: "\f10a"; }
+.flaticon-move:before { content: "\f10b"; }
+.flaticon-next:before { content: "\f10c"; }
+.flaticon-left:before { content: "\f10d"; }
+.flaticon-home-page:before { content: "\f10e"; }
+.flaticon-phone-receiver:before { content: "\f10f"; }
+.flaticon-new-email-interface-symbol-of-closed-envelope-back:before { content: "\f110"; }
+.flaticon-shovel:before { content: "\f111"; }
+.flaticon-shovel-1:before { content: "\f112"; }
+.flaticon-grass-leaves:before { content: "\f113"; }
+.flaticon-sprout:before { content: "\f114"; }
+.flaticon-watering-can:before { content: "\f115"; }
+.flaticon-poison:before { content: "\f116"; }
+.flaticon-calendar-with-a-clock-time-tools:before { content: "\f117"; }
+.flaticon-arrow-down-sign-to-navigate:before { content: "\f118"; }
+.flaticon-cityscape:before { content: "\f119"; }
+.flaticon-sprout-1:before { content: "\f11a"; }
+.flaticon-farming-and-gardening:before { content: "\f11b"; }
+.flaticon-internet:before { content: "\f11c"; }
+.flaticon-envelope:before { content: "\f11d"; }
+.flaticon-placeholder-on-map-paper-in-perspective:before { content: "\f11e"; }
+.flaticon-smartphone:before { content: "\f11f"; }
+.flaticon-facebook-logo:before { content: "\f120"; }
+.flaticon-google-plus:before { content: "\f121"; }
+.flaticon-instagram:before { content: "\f122"; }
+.flaticon-linkedin-logo:before { content: "\f123"; }
+.flaticon-cut:before { content: "\f124"; }
+.flaticon-garden:before { content: "\f125"; }
+.flaticon-sprout-2:before { content: "\f126"; }
+.flaticon-left-1:before { content: "\f127"; }
+.flaticon-arrow:before { content: "\f128"; }
+.flaticon-right-arrow:before { content: "\f129"; }
+.flaticon-email-filled-closed-envelope:before { content: "\f12a"; }
+.flaticon-pin:before { content: "\f12b"; }
+    
+    $font-Flaticon-home: "\f100";
+    $font-Flaticon-mobile-phone: "\f101";
+    $font-Flaticon-leaf: "\f102";
+    $font-Flaticon-checked: "\f103";
+    $font-Flaticon-gardening: "\f104";
+    $font-Flaticon-mail: "\f105";
+    $font-Flaticon-trophy: "\f106";
+    $font-Flaticon-manager: "\f107";
+    $font-Flaticon-placeholder-filled-point: "\f108";
+    $font-Flaticon-signing-the-contract: "\f109";
+    $font-Flaticon-old-typical-phone: "\f10a";
+    $font-Flaticon-move: "\f10b";
+    $font-Flaticon-next: "\f10c";
+    $font-Flaticon-left: "\f10d";
+    $font-Flaticon-home-page: "\f10e";
+    $font-Flaticon-phone-receiver: "\f10f";
+    $font-Flaticon-new-email-interface-symbol-of-closed-envelope-back: "\f110";
+    $font-Flaticon-shovel: "\f111";
+    $font-Flaticon-shovel-1: "\f112";
+    $font-Flaticon-grass-leaves: "\f113";
+    $font-Flaticon-sprout: "\f114";
+    $font-Flaticon-watering-can: "\f115";
+    $font-Flaticon-poison: "\f116";
+    $font-Flaticon-calendar-with-a-clock-time-tools: "\f117";
+    $font-Flaticon-arrow-down-sign-to-navigate: "\f118";
+    $font-Flaticon-cityscape: "\f119";
+    $font-Flaticon-sprout-1: "\f11a";
+    $font-Flaticon-farming-and-gardening: "\f11b";
+    $font-Flaticon-internet: "\f11c";
+    $font-Flaticon-envelope: "\f11d";
+    $font-Flaticon-placeholder-on-map-paper-in-perspective: "\f11e";
+    $font-Flaticon-smartphone: "\f11f";
+    $font-Flaticon-facebook-logo: "\f120";
+    $font-Flaticon-google-plus: "\f121";
+    $font-Flaticon-instagram: "\f122";
+    $font-Flaticon-linkedin-logo: "\f123";
+    $font-Flaticon-cut: "\f124";
+    $font-Flaticon-garden: "\f125";
+    $font-Flaticon-sprout-2: "\f126";
+    $font-Flaticon-left-1: "\f127";
+    $font-Flaticon-arrow: "\f128";
+    $font-Flaticon-right-arrow: "\f129";
+    $font-Flaticon-email-filled-closed-envelope: "\f12a";
+    $font-Flaticon-pin: "\f12b";
