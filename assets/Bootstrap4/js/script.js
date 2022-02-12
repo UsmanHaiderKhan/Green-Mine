@@ -199,46 +199,6 @@ $(function () {
     });
 });
 
-//$(function () {
-//    $('.owl-carousel').owlCarousel({
-//        loop: true,
-//        margin: 0,
-//        dots: false,
-//        nav: true,
-//        item: 1, navText: ["<i class='flaticon-left'></i>", "<i class='flaticon-next'></i>"],
-//        responsiveClass: true,
-//        responsive: {
-//            0: {
-//                items: 1,
-//                dots: false,
-//                nav: true
-//            },
-//            400: {
-//                items: 1,
-//                dots: false,
-//                nav: true
-//            },
-//            600: {
-//                items: 1,
-//                dots: false,
-//                nav: true
-//            },
-//            800: {
-//                items: 1,
-//                dots: false,
-//                nav: true
-//            },
-//            1000: {
-//                items: 1,
-//                dots: false,
-//                nav: true
-//            }
-//        }
-//    });
-//});
-
-/*===================== Slick Slider ======================*/
-
 
 /*===================== Scroll Top Function Script ======================*/
 $(function () {
