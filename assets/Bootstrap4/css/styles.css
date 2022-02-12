@@ -33,12 +33,16 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
 }
+.logo-size{
+    width: 150px;
+}
 
 .some {
     position: relative;
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
 }
 
 .sleep {
@@ -583,8 +587,8 @@ flaticon-cut:before {
     box-shadow: 10px 10px 29px -13px rgba(0,0,0,0.75);
 }
 
-#team .flaticon-facebook-logo:before {
-    content: "\f120";
+#team .flaticon-mobile-phone:before {
+    content: "\f101";
     margin-left: 0;
     border: 2px solid #27b838;
     background: #f7f7f7;
@@ -593,15 +597,15 @@ flaticon-cut:before {
     padding: 7px;
 }
 
-#team .flaticon-facebook-logo:hover:before {
-    content: "\f120";
+#team .flaticon-mobile-phone:hover:before {
+    content: "\f101";
     border: 2px solid #2f2405;
     background: #27b838;
     color: #ffffff;
 }
 
-#team .flaticon-google-plus:before {
-    content: "\f121";
+#team .flaticon-envelope:before {
+    content: "\f11d";
     margin-left: 0;
     border: 2px solid #27b838;
     background: #f7f7f7;
@@ -610,40 +614,8 @@ flaticon-cut:before {
     padding: 7px;
 }
 
-#team .flaticon-google-plus:hover:before {
-    content: "\f121";
-    border: 2px solid #2f2405;
-    background: #27b838;
-    color: #ffffff;
-}
-
-#team .flaticon-instagram:before {
-    content: "\f122";
-    margin-left: 0;
-    border: 2px solid #27b838;
-    background: #f7f7f7;
-    color: #37bd47;
-    font-size: 18px;
-    padding: 7px;
-}
-
-#team .flaticon-instagram:hover:before {
-    border: 2px solid #2f2405;
-    background: #27b838;
-    color: #ffffff;
-}
-
-#team .flaticon-linkedin-logo:before {
-    content: "\f123";
-    margin-left: 0;
-    border: 2px solid #27b838;
-    background: #f7f7f7;
-    color: #37bd47;
-    font-size: 18px;
-    padding: 7px;
-}
-
-#team .flaticon-linkedin-logo:hover:before {
+#team .flaticon-envelope:hover:before {
+    content: "\f11d";
     border: 2px solid #2f2405;
     background: #27b838;
     color: #ffffff;
@@ -780,10 +752,7 @@ flaticon-cut:before {
   =================================*/
 
 .contact-bg-color {
-    position: absolute;
-    width: 100%;
-    height: 86vh;
-    top: 0%;
+    padding: 100px 0;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -806,69 +775,6 @@ flaticon-cut:before {
     font-family: 'Poppins', sans-serif;
 }
 
-.response-color {
-    color: #26b637;
-}
-
-.label-style {
-    font-size: 14px;
-    color: #ffffff;
-    font-weight: 300;
-    text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
-}
-
-.floating-control-group {
-    background: transparent;
-}
-
-.form-control {
-    background: transparent;
-}
-
-    .form-control:focus {
-        border-color: #959595;
-        background: transparent;
-    }
-
-.floating-input {
-    color: #959595;
-    border-bottom: 2px solid #959595 !important;
-}
-
-.btn-send-border {
-    position: relative;
-    width: 191px;
-    height: 61px;
-    border: 2px solid #27b838;
-    padding: 8px;
-    left: 2%;
-    bottom: -24px;
-}
-
-.btn-send {
-    left: -11px;
-    top: -10px;
-    position: absolute;
-    width: 193px;
-    height: 61px;
-    font-size: 20px;
-    color: #ffffff;
-    font-weight: 600;
-    line-height: 43px;
-    text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
-    border-width: 2px;
-    border-radius: 0;
-    border-color: #2f2405;
-    border-style: solid;
-    background-color: rgb(39, 184, 56);
-}
-
-    .btn-send:hover {
-        color: #ffffff;
-        text-decoration: none;
-    }
 
 .address-bg-color {
     padding: 33px 45px;
@@ -900,8 +806,8 @@ flaticon-cut:before {
     margin-left: 0;
 }
 
-#contact .flaticon-pin:before {
-    content: "\f12b";
+#contact .flaticon-facebook-logo:before {
+    content: "\f120";
     color: #f7f7f7;
     font-size: 58px;
     margin-left: 0;
