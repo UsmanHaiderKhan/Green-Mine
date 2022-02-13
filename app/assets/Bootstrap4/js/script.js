@@ -101,6 +101,51 @@ $(document).ready(function () {
 //<i class=""></i>
 //    <i class=""></i>
 $(function () {
+	var owl = $("#owl-two");
+	owl.owlCarousel({
+		autoplay: false,
+		// center: true,
+		loop: true,
+		mouseDrag: true,
+		dots: true,
+		nav: false,
+		slideBy: 4,
+        margin: 40,
+		items: 4,
+		animateIn: "fadeIn",
+		animateOut: "fadeOut",
+		responsiveClass: true,
+		responsive: {
+			0: {
+				items: 1
+			},
+			600: {
+				items: 1,
+				autoplay: true
+			},
+			768: {
+				items: 2
+			},
+			830: {
+				items: 3
+			},
+			1000: {
+				item: 3
+			},
+			1365: {
+				item: 4
+			}
+		}
+	});
+	$(".right-arrow").click(function () {
+		owl.trigger("next.owl.carousel", [1000]);
+	});
+
+	$(".left-arrow").click(function () {
+		owl.trigger("prev.owl.carousel", [1000]);
+	});
+});
+$(function () {
     $('#owl-one').owlCarousel({
         loop: false,
         margin: 0,
@@ -198,6 +243,7 @@ $(function () {
         }
     });
 });
+
 
 
 /*===================== Scroll Top Function Script ======================*/

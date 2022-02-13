@@ -575,6 +575,9 @@ flaticon-cut:before {
         text-transform: capitalize;
         font-family: 'Poppins', sans-serif;
     }
+    #team .item{
+        margin-bottom: 30px;
+    }
 
 .image-border {
     border: 2px solid #ebebeb;
